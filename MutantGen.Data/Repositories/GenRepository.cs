@@ -1,12 +1,14 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Amazon;
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DocumentModel;
 using Amazon.Lambda.Core;
 using Amazon.Runtime;
+using MutantGen.Data.Config;
 using MutantGen.Data.Models;
 
 namespace MutantGen.Data.Repositories
@@ -20,7 +22,10 @@ namespace MutantGen.Data.Repositories
             AmazonDynamoDBConfig clientConfig = new AmazonDynamoDBConfig();
             // This client will access the US East 1 region.
             clientConfig.RegionEndpoint = RegionEndpoint.USEast1;
-            var awsCredentials = new BasicAWSCredentials("AKIAWGBFKUVUTZGB3YET", "WBiCyMLCRT+gxLQqANQuSq4uePLTKuTsAD0F0MOG");
+            SecretManager secretManager = new SecretManager();
+            var secrets  = secretManager.Get("arn:aws:secretsmanager:us-east-1:425280054633:secret:mainSecret-nrqrMA");
+            var keys = JsonSerializer.Deserialize<Secret>(secrets);
+            var awsCredentials = new BasicAWSCredentials(keys.ak, keys.sk);
             Client = new AmazonDynamoDBClient(awsCredentials, clientConfig);
             return true;
         }
@@ -59,7 +64,7 @@ namespace MutantGen.Data.Repositories
                 ScanOperationConfig config = new ScanOperationConfig();
 
                 LambdaLogger.Log("Iniciando Consulta DNA en BD");
-                Search search = tablaDna.Scan(config);               
+                Search search = tablaDna.Scan(config);
 
                 List<Document> documentList = new List<Document>();
                 do
