@@ -1,12 +1,11 @@
-# melimutantgen
-Mutant Gen API 
+**Mutant Gen API **
 
 Programa realizado en .Net Core Lambda
 Se divide en dos Lambdas:
 1. MutantGen: Valida los registros de ADN, los analiza y almacena en una BD en la nube
 2. MutantGenStats: Retorna informacion sobre los analisis de ADNs de la BD e informa cuantos ADNs mutantes encontro, cuantos humanos y el Ratio de ambos.
 
-Pasos para ejecutar los programas MutantGen y MutantGenStats en Visual Studio localmente 
+**Pasos para ejecutar los programas MutantGen y MutantGenStats en Visual Studio localmente **
 1. Instalar Visual Studio (VS) Community
 2. Instalar minimo la version 3.1 de .Net Core
 3. Instalar dependencia para probar en local por medio del AWS .NET Core 3.1 Mock Test Tool: Ejecutar 'dotnet tool install -g Amazon.Lambda.TestTool-2.1'
@@ -146,7 +145,30 @@ Donde el "body" va a contener la informacion de dna que se quiere probar y el li
 
 8. Dar click al boton "Execute Function" y justo debajo en la zona de Response: se encuentra la respuesta a este proceso en conjunto con sus logs
 ![image](https://user-images.githubusercontent.com/103683478/163465433-0d2bb31c-97fc-49e3-8fc6-611070d3f896.png)
+**
+
+**Para Ejecutar las pruebas unitarias automaticas**
+1. Una vez ubicado en Visual Studio y con la solucion abierta ir a "Test Explorer", existen 20 pruebas unitarias con un code coverage de mas del 90% del codigo, Dar click en ejecutar todas las pruebas:
+![image](https://user-images.githubusercontent.com/103683478/163481922-f426aa15-c123-42b2-add0-cd1f15e88f09.png)
+2. Una vez se ejecutan todas las pruebas se puede evidenciar si resultan exitosas o no al final del proceso.
+
+**Para probar API REST**
+
+Se puede probar la API Rest por medio de Postman usando las siguientes URLs:
+
+curl --location --request POST 'https://y7j09fz8vh.execute-api.us-east-1.amazonaws.com/release/mutant' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "dna": [
+        "AAACTG",
+        "CCTGAG",
+        "CCTATG",
+        "ATAGCG",
+        "CTCTTT",
+        "AAGGAT"
+    ]
+}'
 
 
-
+curl --location --request GET 'https://y7j09fz8vh.execute-api.us-east-1.amazonaws.com/release/stats'
 
