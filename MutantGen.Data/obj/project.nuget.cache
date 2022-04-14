@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cmCQqop+Tj42VhMufwWHBacsLzOEtPBA5hXX7hak3GDGI/WVNwjNDeRMHZc9VjJCCYqxemnQqjRZkU7bwbkAFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lgaray\\source\\repos\\MutantGen\\MutantGen.Data\\MutantGen.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lgaray\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\lgaray\\.nuget\\packages\\awssdk.core\\3.7.10.7\\awssdk.core.3.7.10.7.nupkg.sha512",
+    "C:\\Users\\lgaray\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.3.22\\awssdk.dynamodbv2.3.7.3.22.nupkg.sha512"
+  ],
+  "logs": []
+}

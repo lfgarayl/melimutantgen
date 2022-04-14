@@ -1,0 +1,12 @@
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\MutantGen.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\MutantGen.deps.json
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\MutantGen.runtimeconfig.json
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\MutantGen.pdb
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Core.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\AWSSDK.Core.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\AWSSDK.DynamoDBv2.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\Newtonsoft.Json.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\MutantGen.Data.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen\bin\Release\netcoreapp3.1\publish\MutantGen.Data.pdb

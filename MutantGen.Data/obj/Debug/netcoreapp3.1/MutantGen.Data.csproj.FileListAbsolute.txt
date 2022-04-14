@@ -1,0 +1,10 @@
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\obj\Debug\netcoreapp3.1\MutantGen.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\obj\Debug\netcoreapp3.1\MutantGen.Data.AssemblyInfoInputs.cache
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\obj\Debug\netcoreapp3.1\MutantGen.Data.AssemblyInfo.cs
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\obj\Debug\netcoreapp3.1\MutantGen.Data.csproj.CoreCompileInputs.cache
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\bin\Debug\netcoreapp3.1\MutantGen.Data.deps.json
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\bin\Debug\netcoreapp3.1\MutantGen.Data.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\bin\Debug\netcoreapp3.1\MutantGen.Data.pdb
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\obj\Debug\netcoreapp3.1\MutantGen.Data.dll
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\obj\Debug\netcoreapp3.1\MutantGen.Data.pdb
+C:\Users\lgaray\source\repos\MutantGen\MutantGen.Data\obj\Debug\netcoreapp3.1\MutantGen.Data.csproj.AssemblyReference.cache

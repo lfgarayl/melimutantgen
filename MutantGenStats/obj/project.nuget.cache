@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "kWEiNnLim6EPKdLqVSEZZCfK1maHGiPeoC8RF8ra6DMjaxuXq80Uz2YLvb/Ymw3QFxS0S9R23jKlwLhoCaDA3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lgaray\\source\\repos\\MutantGen\\MutantGenStats\\MutantGenStats.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lgaray\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.0\\amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
+    "C:\\Users\\lgaray\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\lgaray\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.2.0\\amazon.lambda.serialization.systemtextjson.2.2.0.nupkg.sha512",
+    "C:\\Users\\lgaray\\.nuget\\packages\\awssdk.core\\3.7.10.7\\awssdk.core.3.7.10.7.nupkg.sha512",
+    "C:\\Users\\lgaray\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.3.22\\awssdk.dynamodbv2.3.7.3.22.nupkg.sha512"
+  ],
+  "logs": []
+}
