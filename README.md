@@ -172,3 +172,5 @@ curl --location --request POST 'https://y7j09fz8vh.execute-api.us-east-1.amazona
 
 curl --location --request GET 'https://y7j09fz8vh.execute-api.us-east-1.amazonaws.com/release/stats'
 
+Adiciono guia del proceso seguido para finalizar el ejercicio
+[Mutant Gen Proceso.pdf](https://github.com/lfgarayl/melimutantgen/files/8493175/Mutant.Gen.Proceso.pdf)
